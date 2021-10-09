@@ -2,19 +2,19 @@ package poo;
 
 public class Cliente {
 	
-	String primeirNome;
-	String nomeDoMeio;
-	String ultimoNome;
-	float altura;
-	int cpf;
-	int idade;
-	int peso;
+	public String primeirNome;
+	public String nomeDoMeio;
+	public String ultimoNome;
+	public float altura;
+	public int cpf;
+	public int idade;
+	public int peso;
 	
-	void nomeCompleto () {
+	public void nomeCompleto () {
 		System.out.println(primeirNome + " " + nomeDoMeio + " " + ultimoNome);
 	}
 	
-	void infoStatus () {
+	public void infoStatus () {
 		System.out.println("CPF n° " + this.cpf + "\nIdade: " + this.idade + " ano(s)" + "\nPeso: " + this.peso + " kg\nAltura: " + this.altura);
 	}
 
