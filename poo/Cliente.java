@@ -1,7 +1,7 @@
 package poo;
 
 public class Cliente {
-	
+
 	public String primeirNome;
 	public String nomeDoMeio;
 	public String ultimoNome;
@@ -76,3 +76,5 @@ public class Cliente {
 	
 
 }
+
+	

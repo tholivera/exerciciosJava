@@ -30,6 +30,11 @@ public class Heranca {
 		return nome;
 	}
 	public String getAcao() {
+		System.out.print("O animal ");
+		System.out.print(animal);
+		System.out.print(" começou a ");
+		System.out.print(acao);
+		System.out.println(".");
 		return acao;
 	}
 	public void setAcao(String acao) {
@@ -45,12 +50,19 @@ public class Heranca {
 		this.nome = nome;
 	}
 	public String getSom() {
+		System.out.print("O som do animal ");
+		System.out.print(animal);
+		System.out.print(" é: ");
+		System.out.print(som);
+		System.out.println(".");
 		return som;
 	}
 	public void setSom(String som) {
 		this.som = som;
 	}
 	public int getIdade() {
+		System.out.print(idade);
+		System.out.println(" ano(s).");
 		return idade;
 	}
 	public void setIdade(int idade) {
